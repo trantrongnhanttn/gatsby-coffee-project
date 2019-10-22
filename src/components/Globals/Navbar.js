@@ -24,9 +24,9 @@ export default class Navbar extends Component {
     this.state.navbarOpen
       ? this.setState({ navbarOpen: false, css: "collapse navbar-collapse" })
       : this.setState({
-          navbarOpen: true,
-          css: "collapse navbar-collapse show",
-        })
+        navbarOpen: true,
+        css: "collapse navbar-collapse show",
+      })
   }
   render() {
     return (
@@ -53,7 +53,7 @@ export default class Navbar extends Component {
               )
             })}
             <li className="nav-item ml-sm-5">
-              <FaCartArrowDown className="cart-icon" />
+              <FaCartArrowDown className="cart-icon snipcart-checkout" />
             </li>
           </ul>
         </div>
